@@ -7,7 +7,7 @@ class Test_Registr(unittest.TestCase):
     def test_Reg1(self):
         link = "http://suninjuly.github.io/registration1.html"
         browser = webdriver.Chrome()
-        browser.implicitly_wait(3)
+        browser.implicitly_wait(5)
         browser.get(link)
 
         # Ваш код, который заполняет обязательные поля
@@ -36,7 +36,7 @@ class Test_Registr(unittest.TestCase):
     def test_Reg2(self):
         link = "http://suninjuly.github.io/registration2.html"
         browser = webdriver.Chrome()
-        browser.implicitly_wait(3)
+        browser.implicitly_wait(5)
         browser.get(link)
 
         # Ваш код, который заполняет обязательные поля
